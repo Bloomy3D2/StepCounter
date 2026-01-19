@@ -111,6 +111,13 @@ enum AppConstants {
         static let caption: CGFloat = 12
         static let caption2: CGFloat = 11
     }
+    
+    // MARK: - URLs
+    
+    enum URLs {
+        /// URL политики конфиденциальности на GitHub Pages
+        static let privacyPolicy = "https://bloomy3d2.github.io/StepCounter/privacy-policy.html"
+    }
 }
 
 // MARK: - Notification Names

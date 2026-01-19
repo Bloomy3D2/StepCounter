@@ -256,7 +256,7 @@ struct PrivacyPolicyWebView: View {
     
     var body: some View {
         NavigationStack {
-            WebView(url: Bundle.main.url(forResource: "PrivacyPolicy", withExtension: "html") ?? URL(string: "about:blank")!)
+            WebView(url: URL(string: AppConstants.URLs.privacyPolicy) ?? URL(string: "about:blank")!)
                 .navigationTitle("Политика конфиденциальности")
                 .navigationBarTitleDisplayMode(.inline)
                 .toolbar {
