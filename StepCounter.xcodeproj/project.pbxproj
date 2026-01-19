@@ -1,0 +1,1153 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1000001 /* StepQuestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000001 /* StepQuestApp.swift */; };
+		A1000005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1000005 /* Assets.xcassets */; };
+		A1100001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100001 /* ContentView.swift */; };
+		A1100002 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100002 /* AuthView.swift */; };
+		A1100003 /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100003 /* FriendsView.swift */; };
+		A1100004 /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100004 /* LeaderboardView.swift */; };
+		A1100005 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100005 /* ProfileView.swift */; };
+		A1100006 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100006 /* AchievementsView.swift */; };
+		A1100007 /* ChallengesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100007 /* ChallengesView.swift */; };
+		A1100008 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100008 /* SettingsView.swift */; };
+		A1100009 /* PetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100009 /* PetView.swift */; };
+		A1100011 /* ProfileLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100011 /* ProfileLevelView.swift */; };
+		A1100012 /* RouteMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100012 /* RouteMapView.swift */; };
+		A1100013 /* PetVisualization.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100013 /* PetVisualization.swift */; };
+		A1100014 /* PremiumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100014 /* PremiumView.swift */; };
+		A1100015 /* RoutesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100015 /* RoutesView.swift */; };
+		A1100017 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100017 /* HomeView.swift */; };
+		A1100018 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100018 /* StatsView.swift */; };
+		A1100019 /* GlassComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100019 /* GlassComponents.swift */; };
+		A1100020 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100020 /* Typography.swift */; };
+		A1100021 /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100021 /* ConfettiView.swift */; };
+		A1100022 /* AnimationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100022 /* AnimationExtensions.swift */; };
+		A1100023 /* ThemeSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100023 /* ThemeSettingsView.swift */; };
+		A1100024 /* View3DEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100024 /* View3DEffects.swift */; };
+		A1100025 /* UXComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100025 /* UXComponents.swift */; };
+		A1100026 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		A1100027 /* ShareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100027 /* ShareManager.swift */; };
+		A1100028 /* GoalSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100028 /* GoalSettingsView.swift */; };
+		A1100029 /* InviteFriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100029 /* InviteFriendsView.swift */; };
+		A1100030 /* PublicLeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100030 /* PublicLeaderboardView.swift */; };
+		A1100031 /* SeasonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100031 /* SeasonView.swift */; };
+		A1100032 /* AnimatedGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100032 /* AnimatedGradientView.swift */; };
+		A1100033 /* TournamentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100033 /* TournamentDetailView.swift */; };
+		A1100034 /* AppleSignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100034 /* AppleSignInButton.swift */; };
+		A1100035 /* LoadingStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100035 /* LoadingStateView.swift */; };
+		A1100036 /* AccessibilityHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100036 /* AccessibilityHelpers.swift */; };
+		A1100037 /* PrivacyConsentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100037 /* PrivacyConsentView.swift */; };
+		A1100038 /* RanksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100038 /* RanksView.swift */; };
+		A1100039 /* StatsDetailViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100039 /* StatsDetailViews.swift */; };
+		A1100040 /* AccountDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100040 /* AccountDetailView.swift */; };
+		A1100041 /* PetDetailViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100041 /* PetDetailViews.swift */; };
+		A1100042 /* AnimatedTabIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100042 /* AnimatedTabIcons.swift */; };
+		A1100043 /* ProfileHeaderCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100043 /* ProfileHeaderCard.swift */; };
+		A1100044 /* PrivacySettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100044 /* PrivacySettingsView.swift */; };
+		A1100045 /* DataExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100045 /* DataExportView.swift */; };
+		A1200001 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1200001 /* HealthManager.swift */; };
+		A1200002 /* StepManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1200002 /* StepManager.swift */; };
+		A1200003 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1200003 /* AuthManager.swift */; };
+		A1200004 /* CloudManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1200004 /* CloudManager.swift */; };
+		A1200005 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1200005 /* UserModel.swift */; };
+		A1200006 /* AchievementManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1200006 /* AchievementManager.swift */; };
+		A1200007 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1200007 /* NotificationManager.swift */; };
+		A1200008 /* ChallengeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1200008 /* ChallengeManager.swift */; };
+		A1200009 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1200009 /* LocationManager.swift */; };
+		A1200010 /* PetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1200010 /* PetManager.swift */; };
+		A1200012 /* LevelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1200012 /* LevelManager.swift */; };
+		A1200013 /* PetAccessory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1200013 /* PetAccessory.swift */; };
+		A1200014 /* SubscriptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1200014 /* SubscriptionManager.swift */; };
+		A1200015 /* TournamentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1200015 /* TournamentManager.swift */; };
+		A1200016 /* GroupChallengeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1200016 /* GroupChallengeManager.swift */; };
+		A1200017 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1200017 /* ThemeManager.swift */; };
+		A1200018 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1200018 /* StorageManager.swift */; };
+		A1200019 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1200019 /* AppConstants.swift */; };
+		A1200020 /* DataCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1200020 /* DataCoordinator.swift */; };
+		A1200021 /* ReviewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1200021 /* ReviewManager.swift */; };
+		A1200022 /* ReferralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1200022 /* ReferralManager.swift */; };
+		A1200023 /* SeasonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1200023 /* SeasonManager.swift */; };
+		A1200024 /* AppleSignInManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1200024 /* AppleSignInManager.swift */; };
+		A1200025 /* AdManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1200025 /* AdManager.swift */; };
+		A1200026 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1200026 /* DIContainer.swift */; };
+		A1200027 /* ManagerProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1200027 /* ManagerProtocols.swift */; };
+		A1200028 /* CalendarExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1200028 /* CalendarExtensions.swift */; };
+		A1200029 /* LoadingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1200029 /* LoadingState.swift */; };
+		A1200030 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1200030 /* Logger.swift */; };
+		A1200031 /* PrivacyConsentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1200031 /* PrivacyConsentManager.swift */; };
+		A1200032 /* DataExportManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1200032 /* DataExportManager.swift */; };
+		A2000001 /* StepCounterWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000001 /* StepCounterWatchApp.swift */; };
+		A2000002 /* WatchContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000002 /* WatchContentView.swift */; };
+		A2000003 /* WatchHealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000003 /* WatchHealthManager.swift */; };
+		A2000004 /* StepComplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000004 /* StepComplication.swift */; };
+		A2000005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2000005 /* Assets.xcassets */; };
+		F19FD4192F1E0E10000C53CA /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F19FD4182F1E0E10000C53CA /* WidgetKit.framework */; };
+		F19FD41B2F1E0E10000C53CA /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F19FD41A2F1E0E10000C53CA /* SwiftUI.framework */; };
+		F19FD4282F1E0E12000C53CA /* StepCounterWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F19FD4162F1E0E10000C53CA /* StepCounterWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F19FD4262F1E0E12000C53CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1665FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F19FD4152F1E0E10000C53CA;
+			remoteInfo = StepCounterWidgetExtension;
+		};
+		F19FD6E52F1E91C9000C53CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1665FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1000000;
+			remoteInfo = StepCounter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F19FD4292F1E0E12000C53CA /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F19FD4282F1E0E12000C53CA /* StepCounterWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B1000000 /* StepCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1000001 /* StepQuestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepQuestApp.swift; sourceTree = "<group>"; };
+		B1000005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1000006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1000007 /* StepCounter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StepCounter.entitlements; sourceTree = "<group>"; };
+		B1000008 /* StoreKitConfig.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoreKitConfig.storekit; sourceTree = "<group>"; };
+		B1100001 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B1100002 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		B1100003 /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
+		B1100004 /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
+		B1100005 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B1100006 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		B1100007 /* ChallengesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesView.swift; sourceTree = "<group>"; };
+		B1100008 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B1100009 /* PetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetView.swift; sourceTree = "<group>"; };
+		B1100011 /* ProfileLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileLevelView.swift; sourceTree = "<group>"; };
+		B1100012 /* RouteMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteMapView.swift; sourceTree = "<group>"; };
+		B1100013 /* PetVisualization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetVisualization.swift; sourceTree = "<group>"; };
+		B1100014 /* PremiumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumView.swift; sourceTree = "<group>"; };
+		B1100015 /* RoutesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesView.swift; sourceTree = "<group>"; };
+		B1100016 /* AppIconGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconGenerator.swift; sourceTree = "<group>"; };
+		B1100017 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B1100018 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		B1100019 /* GlassComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassComponents.swift; sourceTree = "<group>"; };
+		B1100020 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		B1100021 /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
+		B1100022 /* AnimationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExtensions.swift; sourceTree = "<group>"; };
+		B1100023 /* ThemeSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeSettingsView.swift; sourceTree = "<group>"; };
+		B1100024 /* View3DEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View3DEffects.swift; sourceTree = "<group>"; };
+		B1100025 /* UXComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UXComponents.swift; sourceTree = "<group>"; };
+		B1100027 /* ShareManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareManager.swift; sourceTree = "<group>"; };
+		B1100028 /* GoalSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalSettingsView.swift; sourceTree = "<group>"; };
+		B1100029 /* InviteFriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteFriendsView.swift; sourceTree = "<group>"; };
+		B1100030 /* PublicLeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicLeaderboardView.swift; sourceTree = "<group>"; };
+		B1100031 /* SeasonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonView.swift; sourceTree = "<group>"; };
+		B1100032 /* AnimatedGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedGradientView.swift; sourceTree = "<group>"; };
+		B1100033 /* TournamentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentDetailView.swift; sourceTree = "<group>"; };
+		B1100034 /* AppleSignInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSignInButton.swift; sourceTree = "<group>"; };
+		B1100035 /* LoadingStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingStateView.swift; sourceTree = "<group>"; };
+		B1100036 /* AccessibilityHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityHelpers.swift; sourceTree = "<group>"; };
+		B1100037 /* PrivacyConsentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyConsentView.swift; sourceTree = "<group>"; };
+		B1100038 /* RanksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RanksView.swift; sourceTree = "<group>"; };
+		B1100039 /* StatsDetailViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsDetailViews.swift; sourceTree = "<group>"; };
+		B1100040 /* AccountDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailView.swift; sourceTree = "<group>"; };
+		B1100041 /* PetDetailViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDetailViews.swift; sourceTree = "<group>"; };
+		B1100042 /* AnimatedTabIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedTabIcons.swift; sourceTree = "<group>"; };
+		B1100043 /* ProfileHeaderCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderCard.swift; sourceTree = "<group>"; };
+		B1100044 /* PrivacySettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacySettingsView.swift; sourceTree = "<group>"; };
+		B1100045 /* DataExportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExportView.swift; sourceTree = "<group>"; };
+		B1200001 /* HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+		B1200002 /* StepManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepManager.swift; sourceTree = "<group>"; };
+		B1200003 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		B1200004 /* CloudManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudManager.swift; sourceTree = "<group>"; };
+		B1200005 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		B1200006 /* AchievementManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementManager.swift; sourceTree = "<group>"; };
+		B1200007 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		B1200008 /* ChallengeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeManager.swift; sourceTree = "<group>"; };
+		B1200009 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		B1200010 /* PetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetManager.swift; sourceTree = "<group>"; };
+		B1200012 /* LevelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelManager.swift; sourceTree = "<group>"; };
+		B1200013 /* PetAccessory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetAccessory.swift; sourceTree = "<group>"; };
+		B1200014 /* SubscriptionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionManager.swift; sourceTree = "<group>"; };
+		B1200015 /* TournamentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentManager.swift; sourceTree = "<group>"; };
+		B1200016 /* GroupChallengeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupChallengeManager.swift; sourceTree = "<group>"; };
+		B1200017 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		B1200018 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		B1200019 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		B1200020 /* DataCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCoordinator.swift; sourceTree = "<group>"; };
+		B1200021 /* ReviewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewManager.swift; sourceTree = "<group>"; };
+		B1200022 /* ReferralManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferralManager.swift; sourceTree = "<group>"; };
+		B1200023 /* SeasonManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonManager.swift; sourceTree = "<group>"; };
+		B1200024 /* AppleSignInManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSignInManager.swift; sourceTree = "<group>"; };
+		B1200025 /* AdManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdManager.swift; sourceTree = "<group>"; };
+		B1200026 /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
+		B1200027 /* ManagerProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerProtocols.swift; sourceTree = "<group>"; };
+		B1200028 /* CalendarExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarExtensions.swift; sourceTree = "<group>"; };
+		B1200029 /* LoadingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingState.swift; sourceTree = "<group>"; };
+		B1200030 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		B1200031 /* PrivacyConsentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyConsentManager.swift; sourceTree = "<group>"; };
+		B1200032 /* DataExportManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExportManager.swift; sourceTree = "<group>"; };
+		B2000000 /* StepCounter Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StepCounter Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2000001 /* StepCounterWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepCounterWatchApp.swift; sourceTree = "<group>"; };
+		B2000002 /* WatchContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchContentView.swift; sourceTree = "<group>"; };
+		B2000003 /* WatchHealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchHealthManager.swift; sourceTree = "<group>"; };
+		B2000004 /* StepComplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepComplication.swift; sourceTree = "<group>"; };
+		B2000005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F19FD4162F1E0E10000C53CA /* StepCounterWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StepCounterWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19FD4182F1E0E10000C53CA /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = /System/Library/Frameworks/WidgetKit.framework; sourceTree = "<absolute>"; };
+		F19FD41A2F1E0E10000C53CA /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = /System/Library/Frameworks/SwiftUI.framework; sourceTree = "<absolute>"; };
+		F19FD42F2F1E0ECB000C53CA /* StepCounterWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StepCounterWidgetExtension.entitlements; sourceTree = "<group>"; };
+		F19FD6E12F1E91C9000C53CA /* StepCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F19FD42C2F1E0E12000C53CA /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F19FD4152F1E0E10000C53CA /* StepCounterWidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F19FD41C2F1E0E10000C53CA /* StepCounterWidget */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (F19FD42C2F1E0E12000C53CA /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = StepCounterWidget; sourceTree = "<group>"; };
+		F19FD6E22F1E91C9000C53CA /* StepCounterTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = StepCounterTests; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19FD4132F1E0E10000C53CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19FD41B2F1E0E10000C53CA /* SwiftUI.framework in Frameworks */,
+				F19FD4192F1E0E10000C53CA /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19FD6DE2F1E91C9000C53CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0000000 = {
+			isa = PBXGroup;
+			children = (
+				F19FD42F2F1E0ECB000C53CA /* StepCounterWidgetExtension.entitlements */,
+				D1000000 /* StepCounter */,
+				D2000000 /* StepCounter Watch App */,
+				F19FD41C2F1E0E10000C53CA /* StepCounterWidget */,
+				F19FD6E22F1E91C9000C53CA /* StepCounterTests */,
+				F19FD4172F1E0E10000C53CA /* Frameworks */,
+				D3000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1000000 /* StepCounter */ = {
+			isa = PBXGroup;
+			children = (
+				B1000001 /* StepQuestApp.swift */,
+				D1000001 /* Views */,
+				D1000002 /* Models */,
+				B1000005 /* Assets.xcassets */,
+				B1000006 /* Info.plist */,
+				B1000007 /* StepCounter.entitlements */,
+				B1000008 /* StoreKitConfig.storekit */,
+			);
+			path = StepCounter;
+			sourceTree = "<group>";
+		};
+		D1000001 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B1100001 /* ContentView.swift */,
+				B1100002 /* AuthView.swift */,
+				B1100003 /* FriendsView.swift */,
+				B1100004 /* LeaderboardView.swift */,
+				B1100005 /* ProfileView.swift */,
+				B1100006 /* AchievementsView.swift */,
+				B1100007 /* ChallengesView.swift */,
+				B1100008 /* SettingsView.swift */,
+				B1100009 /* PetView.swift */,
+				B1100011 /* ProfileLevelView.swift */,
+				B1100012 /* RouteMapView.swift */,
+				B1100013 /* PetVisualization.swift */,
+				B1100014 /* PremiumView.swift */,
+				B1100015 /* RoutesView.swift */,
+				B1100016 /* AppIconGenerator.swift */,
+				B1100017 /* HomeView.swift */,
+				B1100018 /* StatsView.swift */,
+				B1100023 /* ThemeSettingsView.swift */,
+				B1100028 /* GoalSettingsView.swift */,
+				B1100029 /* InviteFriendsView.swift */,
+				B1100030 /* PublicLeaderboardView.swift */,
+				B1100031 /* SeasonView.swift */,
+				B1100033 /* TournamentDetailView.swift */,
+				B1100037 /* PrivacyConsentView.swift */,
+				B1100038 /* RanksView.swift */,
+				B1100040 /* AccountDetailView.swift */,
+				B1100044 /* PrivacySettingsView.swift */,
+				B1100045 /* DataExportView.swift */,
+				D1000003 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D1000002 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B1200001 /* HealthManager.swift */,
+				B1200002 /* StepManager.swift */,
+				B1200003 /* AuthManager.swift */,
+				B1200004 /* CloudManager.swift */,
+				B1200005 /* UserModel.swift */,
+				B1200006 /* AchievementManager.swift */,
+				B1200007 /* NotificationManager.swift */,
+				B1200008 /* ChallengeManager.swift */,
+				B1200009 /* LocationManager.swift */,
+				B1200010 /* PetManager.swift */,
+				B1200012 /* LevelManager.swift */,
+				B1200013 /* PetAccessory.swift */,
+				B1200014 /* SubscriptionManager.swift */,
+				B1200015 /* TournamentManager.swift */,
+				B1200016 /* GroupChallengeManager.swift */,
+				B1200017 /* ThemeManager.swift */,
+				B1200018 /* StorageManager.swift */,
+				B1200019 /* AppConstants.swift */,
+				B1200020 /* DataCoordinator.swift */,
+				B1200021 /* ReviewManager.swift */,
+				B1200022 /* ReferralManager.swift */,
+				B1200023 /* SeasonManager.swift */,
+				B1200024 /* AppleSignInManager.swift */,
+				B1200025 /* AdManager.swift */,
+				B1200026 /* DIContainer.swift */,
+				B1200027 /* ManagerProtocols.swift */,
+				B1200028 /* CalendarExtensions.swift */,
+				B1200029 /* LoadingState.swift */,
+				B1200030 /* Logger.swift */,
+				B1200031 /* PrivacyConsentManager.swift */,
+				B1200032 /* DataExportManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D1000003 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B1100019 /* GlassComponents.swift */,
+				B1100020 /* Typography.swift */,
+				B1100021 /* ConfettiView.swift */,
+				B1100022 /* AnimationExtensions.swift */,
+				B1100024 /* View3DEffects.swift */,
+				B1100025 /* UXComponents.swift */,
+				B1100032 /* AnimatedGradientView.swift */,
+				B1100027 /* ShareManager.swift */,
+				B1100034 /* AppleSignInButton.swift */,
+				B1100035 /* LoadingStateView.swift */,
+				B1100036 /* AccessibilityHelpers.swift */,
+				B1100039 /* StatsDetailViews.swift */,
+				B1100041 /* PetDetailViews.swift */,
+				B1100042 /* AnimatedTabIcons.swift */,
+				B1100043 /* ProfileHeaderCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D2000000 /* StepCounter Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				B2000001 /* StepCounterWatchApp.swift */,
+				B2000002 /* WatchContentView.swift */,
+				B2000003 /* WatchHealthManager.swift */,
+				B2000004 /* StepComplication.swift */,
+				B2000005 /* Assets.xcassets */,
+			);
+			path = "StepCounter Watch App";
+			sourceTree = "<group>";
+		};
+		D3000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000 /* StepCounter.app */,
+				B2000000 /* StepCounter Watch App.app */,
+				F19FD4162F1E0E10000C53CA /* StepCounterWidgetExtension.appex */,
+				F19FD6E12F1E91C9000C53CA /* StepCounterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F19FD4172F1E0E10000C53CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F19FD4182F1E0E10000C53CA /* WidgetKit.framework */,
+				F19FD41A2F1E0E10000C53CA /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1000000 /* StepCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1000000 /* Build configuration list for PBXNativeTarget "StepCounter" */;
+			buildPhases = (
+				E1000001 /* Sources */,
+				E1000002 /* Resources */,
+				C1000001 /* Frameworks */,
+				F19FD4292F1E0E12000C53CA /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F19FD4272F1E0E12000C53CA /* PBXTargetDependency */,
+			);
+			name = StepCounter;
+			productName = StepCounter;
+			productReference = B1000000 /* StepCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2000000 /* StepCounter Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2000000 /* Build configuration list for PBXNativeTarget "StepCounter Watch App" */;
+			buildPhases = (
+				E2000001 /* Sources */,
+				E2000002 /* Resources */,
+				C2000001 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "StepCounter Watch App";
+			productName = "StepCounter Watch App";
+			productReference = B2000000 /* StepCounter Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F19FD4152F1E0E10000C53CA /* StepCounterWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F19FD42D2F1E0E12000C53CA /* Build configuration list for PBXNativeTarget "StepCounterWidgetExtension" */;
+			buildPhases = (
+				F19FD4122F1E0E10000C53CA /* Sources */,
+				F19FD4132F1E0E10000C53CA /* Frameworks */,
+				F19FD4142F1E0E10000C53CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F19FD41C2F1E0E10000C53CA /* StepCounterWidget */,
+			);
+			name = StepCounterWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = StepCounterWidgetExtension;
+			productReference = F19FD4162F1E0E10000C53CA /* StepCounterWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		F19FD6E02F1E91C9000C53CA /* StepCounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F19FD6E72F1E91C9000C53CA /* Build configuration list for PBXNativeTarget "StepCounterTests" */;
+			buildPhases = (
+				F19FD6DD2F1E91C9000C53CA /* Sources */,
+				F19FD6DE2F1E91C9000C53CA /* Frameworks */,
+				F19FD6DF2F1E91C9000C53CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F19FD6E62F1E91C9000C53CA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F19FD6E22F1E91C9000C53CA /* StepCounterTests */,
+			);
+			name = StepCounterTests;
+			packageProductDependencies = (
+			);
+			productName = StepCounterTests;
+			productReference = F19FD6E12F1E91C9000C53CA /* StepCounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1665FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E1000000 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					E2000000 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					F19FD4152F1E0E10000C53CA = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					F19FD6E02F1E91C9000C53CA = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = E1000000;
+					};
+				};
+			};
+			buildConfigurationList = F0000000 /* Build configuration list for PBXProject "StepCounter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ru;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ru,
+				Base,
+			);
+			mainGroup = D0000000;
+			productRefGroup = D3000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1000000 /* StepCounter */,
+				E2000000 /* StepCounter Watch App */,
+				F19FD4152F1E0E10000C53CA /* StepCounterWidgetExtension */,
+				F19FD6E02F1E91C9000C53CA /* StepCounterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000005 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2000005 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19FD4142F1E0E10000C53CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19FD6DF2F1E91C9000C53CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000001 /* StepQuestApp.swift in Sources */,
+				A1100001 /* ContentView.swift in Sources */,
+				A1100002 /* AuthView.swift in Sources */,
+				A1100003 /* FriendsView.swift in Sources */,
+				A1100004 /* LeaderboardView.swift in Sources */,
+				A1100005 /* ProfileView.swift in Sources */,
+				A1100006 /* AchievementsView.swift in Sources */,
+				A1100007 /* ChallengesView.swift in Sources */,
+				A1100008 /* SettingsView.swift in Sources */,
+				A1100009 /* PetView.swift in Sources */,
+				A1100011 /* ProfileLevelView.swift in Sources */,
+				A1100012 /* RouteMapView.swift in Sources */,
+				A1100013 /* PetVisualization.swift in Sources */,
+				A1100014 /* PremiumView.swift in Sources */,
+				A1100015 /* RoutesView.swift in Sources */,
+				A1100017 /* HomeView.swift in Sources */,
+				A1100018 /* StatsView.swift in Sources */,
+				A1100019 /* GlassComponents.swift in Sources */,
+				A1100020 /* Typography.swift in Sources */,
+				A1100021 /* ConfettiView.swift in Sources */,
+				A1100022 /* AnimationExtensions.swift in Sources */,
+				A1100023 /* ThemeSettingsView.swift in Sources */,
+				A1100024 /* View3DEffects.swift in Sources */,
+				A1100025 /* UXComponents.swift in Sources */,
+				A1100027 /* ShareManager.swift in Sources */,
+				A1100028 /* GoalSettingsView.swift in Sources */,
+				A1100029 /* InviteFriendsView.swift in Sources */,
+				A1100030 /* PublicLeaderboardView.swift in Sources */,
+				A1100026 /* (null) in Sources */,
+				A1200001 /* HealthManager.swift in Sources */,
+				A1200002 /* StepManager.swift in Sources */,
+				A1200003 /* AuthManager.swift in Sources */,
+				A1200004 /* CloudManager.swift in Sources */,
+				A1200005 /* UserModel.swift in Sources */,
+				A1200006 /* AchievementManager.swift in Sources */,
+				A1200007 /* NotificationManager.swift in Sources */,
+				A1200008 /* ChallengeManager.swift in Sources */,
+				A1200009 /* LocationManager.swift in Sources */,
+				A1200010 /* PetManager.swift in Sources */,
+				A1200012 /* LevelManager.swift in Sources */,
+				A1200013 /* PetAccessory.swift in Sources */,
+				A1200014 /* SubscriptionManager.swift in Sources */,
+				A1200015 /* TournamentManager.swift in Sources */,
+				A1200016 /* GroupChallengeManager.swift in Sources */,
+				A1200017 /* ThemeManager.swift in Sources */,
+				A1200018 /* StorageManager.swift in Sources */,
+				A1200019 /* AppConstants.swift in Sources */,
+				A1200020 /* DataCoordinator.swift in Sources */,
+				A1200021 /* ReviewManager.swift in Sources */,
+				A1200022 /* ReferralManager.swift in Sources */,
+				A1200023 /* SeasonManager.swift in Sources */,
+				A1200024 /* AppleSignInManager.swift in Sources */,
+				A1200025 /* AdManager.swift in Sources */,
+				A1200026 /* DIContainer.swift in Sources */,
+				A1200027 /* ManagerProtocols.swift in Sources */,
+				A1200028 /* CalendarExtensions.swift in Sources */,
+				A1200029 /* LoadingState.swift in Sources */,
+				A1200030 /* Logger.swift in Sources */,
+				A1200031 /* PrivacyConsentManager.swift in Sources */,
+				A1200032 /* DataExportManager.swift in Sources */,
+				A1100031 /* SeasonView.swift in Sources */,
+				A1100032 /* AnimatedGradientView.swift in Sources */,
+				A1100033 /* TournamentDetailView.swift in Sources */,
+				A1100034 /* AppleSignInButton.swift in Sources */,
+				A1100037 /* PrivacyConsentView.swift in Sources */,
+				A1100038 /* RanksView.swift in Sources */,
+				A1100035 /* LoadingStateView.swift in Sources */,
+				A1100036 /* AccessibilityHelpers.swift in Sources */,
+				A1100039 /* StatsDetailViews.swift in Sources */,
+				A1100040 /* AccountDetailView.swift in Sources */,
+				A1100041 /* PetDetailViews.swift in Sources */,
+				A1100042 /* AnimatedTabIcons.swift in Sources */,
+				A1100043 /* ProfileHeaderCard.swift in Sources */,
+				A1100044 /* PrivacySettingsView.swift in Sources */,
+				A1100045 /* DataExportView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2000001 /* StepCounterWatchApp.swift in Sources */,
+				A2000002 /* WatchContentView.swift in Sources */,
+				A2000003 /* WatchHealthManager.swift in Sources */,
+				A2000004 /* StepComplication.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19FD4122F1E0E10000C53CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19FD6DD2F1E91C9000C53CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F19FD4272F1E0E12000C53CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F19FD4152F1E0E10000C53CA /* StepCounterWidgetExtension */;
+			targetProxy = F19FD4262F1E0E12000C53CA /* PBXContainerItemProxy */;
+		};
+		F19FD6E62F1E91C9000C53CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1000000 /* StepCounter */;
+			targetProxy = F19FD6E52F1E91C9000C53CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F19FD42A2F1E0E12000C53CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = StepCounterWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9QPGH34SC8;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StepCounterWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = StepCounterWidget;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgaliev.app.StepCounterWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		F19FD42B2F1E0E12000C53CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = StepCounterWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9QPGH34SC8;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StepCounterWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = StepCounterWidget;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgaliev.app.StepCounterWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+		F19FD6E82F1E91C9000C53CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9QPGH34SC8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgaliev.app.StepCounterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StepCounter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StepCounter";
+			};
+			name = Debug;
+		};
+		F19FD6E92F1E91C9000C53CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9QPGH34SC8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgaliev.app.StepCounterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StepCounter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StepCounter";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		G0000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		G0000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		G1000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StepCounter/StepCounter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9QPGH34SC8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StepCounter/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "StepQuest: Шагомер";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "StepQuest использует данные о здоровье для отображения ваших шагов, пройденной дистанции и калорий.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "StepQuest может записывать данные о вашей активности в Apple Health для синхронизации с другими приложениями.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Для записи маршрутов в фоновом режиме нужен постоянный доступ к геолокации.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Для записи маршрутов прогулок нужен доступ к геолокации.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "StepQuest использует датчики движения для точного подсчёта шагов.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgaliev.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		G1000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StepCounter/StepCounter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9QPGH34SC8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StepCounter/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "StepQuest: Шагомер";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "StepQuest использует данные о здоровье для отображения ваших шагов, пройденной дистанции и калорий.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "StepQuest может записывать данные о вашей активности в Apple Health для синхронизации с другими приложениями.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Для записи маршрутов в фоновом режиме нужен постоянный доступ к геолокации.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Для записи маршрутов прогулок нужен доступ к геолокации.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "StepQuest использует датчики движения для точного подсчёта шагов.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgaliev.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		G2000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Шагомер";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "StepCounter использует данные о здоровье для отображения ваших шагов.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.stepcounter.app;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stepcounter.app.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		G2000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Шагомер";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "StepCounter использует данные о здоровье для отображения ваших шагов.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.stepcounter.app;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stepcounter.app.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0000000 /* Build configuration list for PBXProject "StepCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G0000001 /* Debug */,
+				G0000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1000000 /* Build configuration list for PBXNativeTarget "StepCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G1000001 /* Debug */,
+				G1000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F19FD42D2F1E0E12000C53CA /* Build configuration list for PBXNativeTarget "StepCounterWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19FD42A2F1E0E12000C53CA /* Debug */,
+				F19FD42B2F1E0E12000C53CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F19FD6E72F1E91C9000C53CA /* Build configuration list for PBXNativeTarget "StepCounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19FD6E82F1E91C9000C53CA /* Debug */,
+				F19FD6E92F1E91C9000C53CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2000000 /* Build configuration list for PBXNativeTarget "StepCounter Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G2000001 /* Debug */,
+				G2000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1665FE841209C02AAC07 /* Project object */;
+}

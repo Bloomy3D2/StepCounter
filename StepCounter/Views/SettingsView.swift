@@ -676,7 +676,7 @@ struct SettingsView: View {
                                 .frame(width: 40)
                             
                             VStack(alignment: .leading, spacing: 6) {
-                                Text("StepCounter Premium")
+                                Text("StepQuest Premium")
                                     .font(.system(size: 18, weight: .bold))
                                     .foregroundColor(.white)
                                 
@@ -1143,7 +1143,7 @@ struct SettingsView: View {
                 // Поддержка
                 Button {
                     // Правильная URL-кодировка для заголовка письма
-                    let subject = "Вопрос о приложении StepCounter"
+                    let subject = "Вопрос о приложении StepQuest"
                     if let encodedSubject = subject.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed),
                        let url = URL(string: "mailto:\(AppConstants.Contact.supportEmail)?subject=\(encodedSubject)") {
                         UIApplication.shared.open(url)
