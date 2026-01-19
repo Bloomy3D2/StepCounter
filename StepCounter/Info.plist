@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>processing</string>
+		<string>location</string>
+	</array>
+	<key>NSHealthShareUsageDescription</key>
+	<string>StepCounter использует данные о здоровье для отображения ваших шагов, пройденной дистанции и калорий.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>StepCounter может записывать данные о вашей активности в Apple Health для синхронизации с другими приложениями.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Для записи маршрутов прогулок нужен доступ к геолокации.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Для записи маршрутов в фоновом режиме нужен постоянный доступ к геолокации.</string>
+	<key>NSMotionUsageDescription</key>
+	<string>StepCounter использует датчики движения для точного подсчёта шагов.</string>
+</dict>
+</plist>

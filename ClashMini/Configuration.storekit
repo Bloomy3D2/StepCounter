@@ -1,0 +1,318 @@
+{
+  "identifier" : "com.game.clashmini",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "gems_tiny",
+      "localizations" : [
+        {
+          "description" : "80 гемов для покупок в игре",
+          "displayName" : "Горсть Гемов",
+          "locale" : "ru"
+        },
+        {
+          "description" : "80 gems for in-game purchases",
+          "displayName" : "Handful of Gems",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.game.clashmini.gems.tiny",
+      "referenceName" : "Gems Tiny Pack",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "gems_small",
+      "localizations" : [
+        {
+          "description" : "500 гемов + 50 бонусных",
+          "displayName" : "Мешочек Гемов",
+          "locale" : "ru"
+        },
+        {
+          "description" : "500 gems + 50 bonus",
+          "displayName" : "Bag of Gems",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.game.clashmini.gems.small",
+      "referenceName" : "Gems Small Pack",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : false,
+      "internalID" : "gems_medium",
+      "localizations" : [
+        {
+          "description" : "1200 гемов + 200 бонусных",
+          "displayName" : "Сундук Гемов",
+          "locale" : "ru"
+        },
+        {
+          "description" : "1200 gems + 200 bonus",
+          "displayName" : "Chest of Gems",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.game.clashmini.gems.medium",
+      "referenceName" : "Gems Medium Pack",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "19.99",
+      "familyShareable" : false,
+      "internalID" : "gems_large",
+      "localizations" : [
+        {
+          "description" : "2500 гемов + 500 бонусных",
+          "displayName" : "Сокровище",
+          "locale" : "ru"
+        },
+        {
+          "description" : "2500 gems + 500 bonus",
+          "displayName" : "Treasure",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.game.clashmini.gems.large",
+      "referenceName" : "Gems Large Pack",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "49.99",
+      "familyShareable" : false,
+      "internalID" : "gems_huge",
+      "localizations" : [
+        {
+          "description" : "6500 гемов + 1500 бонусных",
+          "displayName" : "Королевская Казна",
+          "locale" : "ru"
+        },
+        {
+          "description" : "6500 gems + 1500 bonus",
+          "displayName" : "Royal Treasury",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.game.clashmini.gems.huge",
+      "referenceName" : "Gems Huge Pack",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "99.99",
+      "familyShareable" : false,
+      "internalID" : "gems_mega",
+      "localizations" : [
+        {
+          "description" : "14000 гемов + 4000 бонусных",
+          "displayName" : "Легендарное Богатство",
+          "locale" : "ru"
+        },
+        {
+          "description" : "14000 gems + 4000 bonus",
+          "displayName" : "Legendary Fortune",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.game.clashmini.gems.mega",
+      "referenceName" : "Gems Mega Pack",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "offer_daily",
+      "localizations" : [
+        {
+          "description" : "100 гемов, 1000 золота, 2 бустера",
+          "displayName" : "Ежедневная Сделка",
+          "locale" : "ru"
+        },
+        {
+          "description" : "100 gems, 1000 gold, 2 boosters",
+          "displayName" : "Daily Deal",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.game.clashmini.offer.daily",
+      "referenceName" : "Daily Offer",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "offer_starter",
+      "localizations" : [
+        {
+          "description" : "500 гемов, 5000 золота, 3 бустера",
+          "displayName" : "Стартовый Набор",
+          "locale" : "ru"
+        },
+        {
+          "description" : "500 gems, 5000 gold, 3 boosters",
+          "displayName" : "Starter Pack",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.game.clashmini.offer.starter",
+      "referenceName" : "Starter Pack",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "19.99",
+      "familyShareable" : false,
+      "internalID" : "offer_legendary",
+      "localizations" : [
+        {
+          "description" : "2000 гемов, 20000 золота, все бустеры",
+          "displayName" : "Легендарный Бандл",
+          "locale" : "ru"
+        },
+        {
+          "description" : "2000 gems, 20000 gold, all boosters",
+          "displayName" : "Legendary Bundle",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.game.clashmini.offer.legendary",
+      "referenceName" : "Legendary Bundle",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "123456789",
+    "_developerTeamID" : "YOURTEAMID",
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 756700000,
+    "_locale" : "ru",
+    "_storefront" : "RUS",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "vip_group",
+      "localizations" : [
+        {
+          "description" : "VIP подписка с бонусами",
+          "displayName" : "VIP Клуб",
+          "locale" : "ru"
+        }
+      ],
+      "name" : "VIP Club",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "4.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "vip_monthly",
+          "introductoryOffer" : {
+            "displayPrice" : "0.99",
+            "internalID" : "vip_intro",
+            "numberOfPeriods" : 1,
+            "paymentMode" : "payAsYouGo",
+            "subscriptionPeriod" : "P1M"
+          },
+          "localizations" : [
+            {
+              "description" : "Ежедневные бонусы и эксклюзивные предложения",
+              "displayName" : "VIP Месячный",
+              "locale" : "ru"
+            }
+          ],
+          "productID" : "com.game.clashmini.vip.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "VIP Monthly",
+          "subscriptionGroupID" : "vip_group",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "39.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "vip_yearly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "VIP на год со скидкой 33%",
+              "displayName" : "VIP Годовой",
+              "locale" : "ru"
+            }
+          ],
+          "productID" : "com.game.clashmini.vip.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "VIP Yearly",
+          "subscriptionGroupID" : "vip_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

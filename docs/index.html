@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="StepCounter - умный шагомер с геймификацией, питомцем и достижениями для iOS">
+    <title>StepCounter - Умный шагомер для iOS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            color: white;
+        }
+        
+        header h1 {
+            font-size: 3.5em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            animation: fadeInDown 0.8s ease-out;
+        }
+        
+        header p {
+            font-size: 1.3em;
+            opacity: 0.95;
+            animation: fadeInUp 0.8s ease-out 0.2s both;
+        }
+        
+        .app-icon {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto 30px;
+            background: white;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 80px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            animation: scaleIn 0.8s ease-out 0.4s both;
+        }
+        
+        .content {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            margin: 40px 0;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+        
+        .feature-card {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 30px;
+            border-radius: 15px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+        
+        .feature-card h3 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            color: #667eea;
+        }
+        
+        .feature-card p {
+            color: #666;
+            line-height: 1.8;
+        }
+        
+        .feature-icon {
+            font-size: 3em;
+            margin-bottom: 15px;
+        }
+        
+        .download-section {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 20px;
+            margin: 40px 0;
+        }
+        
+        .download-button {
+            display: inline-block;
+            padding: 20px 50px;
+            background: white;
+            color: #667eea;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.3em;
+            font-weight: bold;
+            margin-top: 30px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .download-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+        }
+        
+        .screenshots {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+        
+        .screenshot {
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            background: #f0f0f0;
+            aspect-ratio: 9/16;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #999;
+            font-size: 1.2em;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: white;
+            opacity: 0.9;
+        }
+        
+        footer a {
+            color: white;
+            text-decoration: underline;
+        }
+        
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes scaleIn {
+            from {
+                opacity: 0;
+                transform: scale(0.5);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+        
+        .badge {
+            display: inline-block;
+            padding: 8px 16px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin: 10px 5px;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+        
+        .stat-card {
+            text-align: center;
+            padding: 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 15px;
+        }
+        
+        .stat-card h3 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .stat-card p {
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5em;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .features {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="app-icon">👣</div>
+            <h1>StepCounter</h1>
+            <p>Умный шагомер с геймификацией для iOS</p>
+            <div style="margin-top: 20px;">
+                <span class="badge">🏆 Достижения</span>
+                <span class="badge">🐾 Питомец</span>
+                <span class="badge">📊 Статистика</span>
+                <span class="badge">🎯 Квесты</span>
+                <span class="badge">👥 Челленджи</span>
+            </div>
+        </header>
+        
+        <div class="content">
+            <h2 style="text-align: center; margin-bottom: 30px; color: #667eea;">О приложении</h2>
+            <p style="text-align: center; font-size: 1.2em; color: #666; margin-bottom: 40px;">
+                StepCounter превращает ежедневную ходьбу в увлекательную игру! 
+                Отслеживайте шаги, зарабатывайте достижения, развивайте питомца и соревнуйтесь с друзьями.
+            </p>
+            
+            <div class="stats">
+                <div class="stat-card">
+                    <h3>50+</h3>
+                    <p>Достижений</p>
+                </div>
+                <div class="stat-card">
+                    <h3>10</h3>
+                    <p>Званий</p>
+                </div>
+                <div class="stat-card">
+                    <h3>∞</h3>
+                    <p>Мотивации</p>
+                </div>
+            </div>
+            
+            <h2 style="text-align: center; margin: 60px 0 40px; color: #667eea;">Основные функции</h2>
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>Точный подсчет шагов</h3>
+                    <p>Интеграция с Apple Health для максимально точного отслеживания вашей активности. Поддержка всех метрик: шаги, дистанция, калории, время активности.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🏆</div>
+                    <h3>Система достижений</h3>
+                    <p>Более 50 уникальных достижений за различные цели. Разблокируйте медали, повышайте рейтинг и показывайте свои успехи друзьям!</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🐾</div>
+                    <h3>Виртуальный питомец</h3>
+                    <p>Заботьтесь о своем питомце! Чем больше вы ходите, тем больше опыта получает ваш питомец. Развивайте его от малыша до взрослого!</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Детальная статистика</h3>
+                    <p>Анализируйте свою активность с помощью подробных графиков и отчетов. Ежедневная, недельная, месячная и годовая статистика.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Ежедневные квесты</h3>
+                    <p>Выполняйте ежедневные задания и получайте награды. Каждый день новые вызовы для поддержания мотивации!</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🗺️</div>
+                    <h3>GPS-маршруты</h3>
+                    <p>Записывайте свои маршруты с помощью GPS. Просматривайте пройденные пути на карте и анализируйте свои прогулки.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">👥</div>
+                    <h3>Групповые челленджи</h3>
+                    <p>Создавайте команды и соревнуйтесь с друзьями! Групповые челленджи делают ходьбу еще более увлекательной.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>Виджеты</h3>
+                    <p>Добавьте виджет на главный экран iPhone для быстрого доступа к статистике шагов, не открывая приложение.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h3>Красивые темы</h3>
+                    <p>Выберите из множества тем оформления. Premium пользователи получают доступ к анимированным темам!</p>
+                </div>
+            </div>
+            
+            <h2 style="text-align: center; margin: 60px 0 40px; color: #667eea;">Скриншоты</h2>
+            <div class="screenshots">
+                <div class="screenshot">Скриншот 1</div>
+                <div class="screenshot">Скриншот 2</div>
+                <div class="screenshot">Скриншот 3</div>
+                <div class="screenshot">Скриншот 4</div>
+            </div>
+        </div>
+        
+        <div class="download-section">
+            <h2 style="font-size: 2.5em; margin-bottom: 20px;">Готовы начать?</h2>
+            <p style="font-size: 1.2em; margin-bottom: 20px;">Скачайте StepCounter в App Store</p>
+            <a href="https://apps.apple.com/app/stepcounter" class="download-button">
+                Скачать в App Store
+            </a>
+            <p style="margin-top: 30px; opacity: 0.9; font-size: 0.9em;">
+                Требуется iOS 17.0 или новее
+            </p>
+        </div>
+        
+        <div class="content">
+            <h2 style="text-align: center; margin-bottom: 30px; color: #667eea;">Конфиденциальность</h2>
+            <p style="text-align: center; color: #666; margin-bottom: 20px;">
+                Мы серьезно относимся к защите ваших данных. Все данные хранятся локально на вашем устройстве.
+            </p>
+            <p style="text-align: center;">
+                <a href="privacy-policy.html" style="color: #667eea; text-decoration: none; font-weight: bold;">
+                    📄 Политика конфиденциальности
+                </a>
+            </p>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2026 StepCounter. Все права защищены.</p>
+        <p style="margin-top: 10px;">
+            <a href="mailto:support@stepcounter.app">Поддержка</a> | 
+            <a href="privacy-policy.html">Конфиденциальность</a>
+        </p>
+    </footer>
+</body>
+</html>
