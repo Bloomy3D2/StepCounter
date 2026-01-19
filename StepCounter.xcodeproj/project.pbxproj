@@ -23,6 +23,8 @@
 		A1100013 /* PetVisualization.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100013 /* PetVisualization.swift */; };
 		A1100014 /* PremiumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100014 /* PremiumView.swift */; };
 		A1100015 /* RoutesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100015 /* RoutesView.swift */; };
+		A1100016A /* StepQuestIconGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100016A /* StepQuestIconGenerator.swift */; };
+		A1100016B /* IconExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100016B /* IconExporter.swift */; };
 		A1100017 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100017 /* HomeView.swift */; };
 		A1100018 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100018 /* StatsView.swift */; };
 		A1100019 /* GlassComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1100019 /* GlassComponents.swift */; };
@@ -146,6 +148,8 @@
 		B1100014 /* PremiumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumView.swift; sourceTree = "<group>"; };
 		B1100015 /* RoutesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesView.swift; sourceTree = "<group>"; };
 		B1100016 /* AppIconGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconGenerator.swift; sourceTree = "<group>"; };
+		B1100016A /* StepQuestIconGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepQuestIconGenerator.swift; sourceTree = "<group>"; };
+		B1100016B /* IconExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconExporter.swift; sourceTree = "<group>"; };
 		B1100017 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B1100018 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 		B1100019 /* GlassComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassComponents.swift; sourceTree = "<group>"; };
@@ -312,6 +316,8 @@
 				B1100014 /* PremiumView.swift */,
 				B1100015 /* RoutesView.swift */,
 				B1100016 /* AppIconGenerator.swift */,
+				B1100016A /* StepQuestIconGenerator.swift */,
+				B1100016B /* IconExporter.swift */,
 				B1100017 /* HomeView.swift */,
 				B1100018 /* StatsView.swift */,
 				B1100023 /* ThemeSettingsView.swift */,
@@ -606,6 +612,8 @@
 				A1100013 /* PetVisualization.swift in Sources */,
 				A1100014 /* PremiumView.swift in Sources */,
 				A1100015 /* RoutesView.swift in Sources */,
+				A1100016A /* StepQuestIconGenerator.swift in Sources */,
+				A1100016B /* IconExporter.swift in Sources */,
 				A1100017 /* HomeView.swift in Sources */,
 				A1100018 /* StatsView.swift in Sources */,
 				A1100019 /* GlassComponents.swift in Sources */,
