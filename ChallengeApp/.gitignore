@@ -1,0 +1,42 @@
+# YooKassa Configuration Files (содержат секретные ключи)
+Config.xcconfig
+Config.Release.xcconfig
+Config.local.xcconfig
+**/Config.xcconfig
+**/Config.*.xcconfig
+!Config.xcconfig.example
+!**/Config.xcconfig.example
+
+# Generated Config (генерируется автоматически из .xcconfig)
+**/GeneratedConfig.swift
+
+# Xcode
+.DS_Store
+*.xcuserstate
+*.xcuserdatad
+project.xcworkspace/xcuserdata/
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Build generated
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# CocoaPods
+Pods/
+
+# Swift Package Manager
+.swiftpm/
+.build/
+Package.resolved

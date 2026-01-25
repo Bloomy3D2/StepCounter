@@ -1,0 +1,305 @@
+/* 
+  Localizable.strings (Chinese Simplified)
+  ChallengeApp
+  
+  Chinese Simplified localization
+*/
+
+// MARK: - Common
+"common.ok" = "确定";
+"common.cancel" = "取消";
+"common.done" = "完成";
+"common.close" = "关闭";
+"common.yes" = "是";
+"common.no" = "否";
+"common.delete" = "删除";
+"common.save" = "保存";
+
+// MARK: - Navigation
+"nav.challenges" = "挑战";
+"nav.my_progress" = "我的进度";
+"nav.create" = "创建";
+"nav.history" = "历史";
+"nav.profile" = "个人资料";
+"nav.active_challenges" = "活跃挑战";
+
+// MARK: - Splash
+"splash.title" = "对自己下注";
+"splash.subtitle" = "失败 — 你付钱。\n完成 — 你拿钱。";
+"splash.start" = "开始";
+
+// MARK: - Challenges
+"challenge.join" = "加入 %@";
+"challenge.you_participate" = "您正在参与";
+"challenge.completed" = "已完成";
+"challenge.failed" = "失败";
+"challenge.duration" = "持续时间：%d 天";
+"challenge.entry_fee" = "入场费：";
+"challenge.service_fee" = "服务费：";
+"challenge.prize_pool" = "奖金池在获胜者之间分配";
+"challenge.conditions" = "条件";
+"challenge.money" = "金钱";
+"challenge.participants" = "参与者";
+
+// MARK: - Profile
+"profile.balance" = "余额：%.2f ₽";
+"profile.honest_streak" = "诚实连胜：";
+"profile.honest_streak_days" = "%d 天";
+"profile.deposit" = "充值";
+"profile.withdraw" = "提款";
+"profile.transaction_history" = "交易历史";
+"profile.no_transactions" = "暂无交易";
+"profile.rules" = "规则";
+"profile.support" = "支持";
+"profile.clear_data" = "清除本地数据";
+"profile.delete_account" = "删除账户";
+"profile.logout" = "退出";
+"profile.available" = "可用";
+"profile.on_verification" = "正在验证中";
+"profile.pending_withdrawal" = "待提款";
+"profile.available_for_withdrawal" = "可提款";
+"profile.min_withdrawal" = "最低提款：%d ₽";
+"profile.min_amount" = "最低金额：%d ₽";
+"profile.withdrawal_request_created" = "已创建 %@ ₽ 的提款请求。资金将在 1-3 个工作日内到账。";
+"profile.deposit_success" = "余额已成功充值 %@ ₽";
+
+// MARK: - Progress
+"progress.title" = "我的进度";
+"progress.total_stats" = "总统计";
+"progress.win_rate" = "胜率";
+"progress.lost" = "损失";
+"progress.earned" = "赚取";
+"progress.my_challenges" = "我的挑战";
+"progress.no_challenges" = "您尚未参与任何挑战";
+"progress.day_of" = "第 %d 天，共 %d 天";
+"progress.victory" = "胜利";
+"progress.failure" = "失败";
+"progress.active" = "活跃";
+"progress.load_more" = "查看更多";
+
+// MARK: - Victory
+"victory.emoji" = "🎉";
+"victory.title" = "您坚持到了最后";
+"victory.earned" = "您赚了";
+"victory.winners" = "%d 人坚持到了最后";
+"victory.withdraw" = "提款";
+"victory.next_challenge" = "下一个挑战";
+
+// MARK: - Quick Start
+"quickstart.title" = "快速开始";
+"quickstart.subtitle" = "从简单的 1 天挑战开始";
+"quickstart.start_for" = "开始 %d ₽";
+"quickstart.choose_other" = "选择其他";
+
+// MARK: - Alerts
+"alert.error" = "错误";
+"alert.delete_account.title" = "删除账户？";
+"alert.delete_account.message" = "此操作无法撤销。您的所有数据将被删除。";
+"alert.clear_data.title" = "清除本地数据？";
+"alert.clear_data.message" = "这将删除所有本地挑战。数据将从服务器重新加载。";
+
+// MARK: - Language
+"language.title" = "语言";
+"language.select" = "选择语言";
+"language.russian" = "Русский";
+"language.english" = "English";
+"language.chinese" = "简体中文";
+
+// MARK: - Active Challenge
+"active.day_of" = "第 %d 天，共 %d 天";
+"active.time_until_end" = "距离今天结束";
+"active.excellent_tomorrow" = "太好了。明天继续。";
+"active.complete" = "已完成";
+"active.fail" = "失败";
+"active.remaining_participants" = "剩余参与者：";
+"active.completed_today" = "今天完成：";
+"active.dropped_today" = "今天退出：";
+"active.no_active" = "没有活跃挑战";
+"active.confirm_title" = "确认";
+"active.confirm_cancel" = "取消";
+"active.confirm_confirm" = "确认";
+"active.confirm_message" = "您确定吗？资金将不会退还。";
+"active.error_title" = "错误";
+"active.error_complete" = "标记完成失败。请重试。";
+"active.error_fail" = "记录失败失败。请重试。";
+"active.progress_title" = "我的进度";
+
+// MARK: - Progress Stats
+"stats.total_stats" = "总统计";
+"stats.participations" = "参与次数";
+"stats.wins" = "胜利";
+"stats.failures" = "失败";
+"stats.earned" = "赚取";
+"stats.lost" = "损失";
+"stats.win_rate" = "胜率";
+"stats.my_challenges" = "我的挑战";
+"stats.no_challenges" = "您尚未参与任何挑战";
+"stats.challenge_number" = "挑战 #%@";
+"stats.day" = "天";
+"stats.victory" = "胜利";
+"stats.failure" = "失败";
+"stats.active" = "活跃";
+
+// MARK: - Failure
+"failure.you_dropped" = "您已退出";
+"failure.conditions_not_met" = "您今天没有满足条件。";
+"failure.money_not_refunded" = "资金将不会退还。";
+"failure.view_other" = "查看其他挑战";
+"failure.wait_next_round" = "等待下一轮\n再试一次";
+
+// MARK: - Common UI
+"common.coming_soon" = "即将推出";
+
+// MARK: - Challenge Detail
+"detail.start_in" = "开始于";
+"detail.start_date" = "开始日期";
+"detail.start_time" = "在 %@";
+"detail.conditions" = "条件";
+"detail.rules_loading" = "正在加载规则...";
+"detail.what_if_fail" = "如果您失败了会怎样？";
+"detail.money_not_refunded" = "资金将不会退还";
+"detail.service_fee_percent" = "服务费 — %d%%";
+"detail.money" = "金钱";
+"detail.entry" = "入场费：";
+"detail.service_fee" = "服务费：";
+"detail.prize_pool_info" = "奖金池在获胜者之间分配";
+"detail.join_for" = "加入 %@";
+"detail.you_participate" = "您正在参与此挑战";
+"detail.go_to_challenge" = "转到挑战";
+"detail.you_won" = "您赢得了这个挑战！";
+"detail.you_dropped" = "您退出了这个挑战";
+"detail.wait_next_round" = "等待下一轮再试一次";
+
+// MARK: - Payment
+"payment.pay_apple" = "使用 Apple Pay 支付";
+"payment.pay_card" = "支付 %@";
+"payment.pay_sbp" = "通过 SBP 支付";
+"payment.duration_days" = "持续时间：%d 天";
+"payment.amount_to_pay" = "应付金额";
+"payment.rules" = "规则";
+"payment.error" = "错误";
+"payment.method" = "支付方式";
+"payment.card" = "银行卡";
+"payment.sbp" = "SBP（快速支付系统）";
+"payment.card_details" = "卡详细信息";
+"payment.card_number" = "卡号";
+"payment.expiry" = "有效期";
+"payment.cardholder" = "持卡人姓名";
+"payment.receipt_email" = "收据电子邮件";
+"payment.email_valid" = "电子邮件有效";
+"payment.email_receipt_info" = "收据将发送到此电子邮件";
+"payment.email_required_title" = "输入您的电子邮件";
+"payment.email_required_description" = "需要电子邮件才能收到付款收据。";
+"payment.confirm" = "确认";
+"payment.email_invalid" = "请输入有效的电子邮件";
+"payment.sbp_payment" = "SBP 支付";
+"payment.sbp_info" = "点击支付按钮后，您将被重定向到您的银行应用程序以确认支付。";
+"payment.terms_agree" = "我理解规则并同意条款。如果挑战失败，资金将不会退还。";
+"payment.got_it" = "明白了";
+"payment.excellent" = "太好了！";
+"payment.processing" = "处理付款";
+"payment.processing_wait" = "请稍候...";
+"auth.or" = "或";
+"auth.sign_in_apple" = "使用 Apple 登录";
+"auth.sign_up" = "注册";
+"auth.sign_in" = "登录";
+"auth.already_have_account" = "已有账户？";
+"auth.no_account" = "没有账户？";
+"payment.terms_agree" = "我理解规则并同意条款。如果挑战失败，资金将不会退还。";
+"payment.got_it" = "明白了";
+"payment.excellent" = "太好了！";
+
+// MARK: - Victory
+"victory.made_it" = "您坚持到了最后";
+"victory.you_earned" = "您赚了";
+"victory.winners_count" = "%d 人坚持到了最后";
+"victory.withdraw_money" = "提款";
+"victory.next_challenge" = "下一个挑战";
+
+// MARK: - Language Selection
+"language.select_interface" = "选择界面语言";
+
+// MARK: - Quick Start
+"quickstart.ready" = "准备开始？";
+"quickstart.try_first" = "尝试您的第一个挑战";
+"quickstart.first_challenge" = "第一个挑战";
+"quickstart.duration_label" = "持续时间：";
+"quickstart.day" = "天";
+"quickstart.days" = "天";
+"quickstart.stake" = "赌注：";
+"quickstart.category" = "类别：";
+"quickstart.start_for" = "开始 %d ₽";
+"quickstart.choose_other" = "选择其他";
+
+// MARK: - Onboarding
+"onboarding.short_challenges" = "短期挑战";
+"onboarding.on_discipline" = "关于纪律";
+"onboarding.money_motivates" = "金钱增强动力";
+"onboarding.next" = "下一步";
+"onboarding.how_it_works" = "工作原理";
+"onboarding.step_join" = "加入挑战";
+"onboarding.step_pay" = "支付入场费";
+"onboarding.step_complete" = "完成 → 赚取";
+"onboarding.step_fail" = "失败 → 损失";
+"onboarding.not_for_everyone" = "这不适合所有人。";
+"onboarding.no_excuses" = "这里没有借口。";
+"onboarding.start" = "开始";
+"onboarding.skip" = "跳过";
+
+// MARK: - Profile (Additional)
+"profile.honest_streak_label" = "诚实连胜：";
+"profile.days" = "天";
+"profile.deposit_balance" = "充值";
+"profile.transaction_history_title" = "交易历史";
+"profile.no_transactions_yet" = "暂无交易";
+"profile.available" = "可用";
+"profile.on_verification" = "正在验证中";
+"profile.time_remaining" = "剩余：%@";
+"profile.pending_withdrawal_label" = "待提款";
+"profile.withdrawal_request_created" = "已创建 %@ ₽ 的提款请求。资金将在 1-3 个工作日内到账。";
+"profile.available_for_withdrawal" = "可提款";
+"profile.min_withdrawal_amount" = "最低提款：%d ₽";
+"profile.quick_selection" = "快速选择";
+"profile.all" = "全部";
+"profile.or_enter_amount" = "输入金额";
+"profile.insufficient_funds" = "资金不足";
+"profile.min_amount_label" = "最低金额：%d ₽";
+"profile.withdraw_method" = "提款方式";
+"profile.bank_card" = "银行卡";
+"profile.bank_account" = "银行账户";
+"profile.sbp_phone" = "SBP（到电话号码）";
+"profile.card_number" = "卡号";
+"profile.account_number" = "账户号码（20 位数字）";
+"profile.phone_number" = "电话号码";
+"profile.funds_arrival" = "资金将在 1-3 个工作日内到账";
+"profile.withdraw_funds" = "提款";
+"profile.rules_title" = "规则";
+"profile.rule_1" = "1. 每天标记挑战完成";
+"profile.rule_2" = "2. 没有标记 = 自动退出";
+"profile.rule_3" = "3. 失败时资金不退还";
+"profile.rule_4" = "4. 奖金池在所有获胜者之间分配";
+"profile.current_balance" = "当前余额";
+"profile.deposit" = "充值";
+"profile.deposit_success_amount" = "余额已成功充值 %@ ₽";
+"profile.support" = "支持";
+"profile.withdrawal_created_title" = "请求已创建！";
+"profile.tx_deposit" = "充值";
+"profile.tx_entry_fee" = "挑战入场";
+"profile.tx_withdrawal" = "提款";
+"profile.tx_payout" = "奖金";
+
+// MARK: - Error Messages
+"error.auth_required" = "需要身份验证";
+"error.invalid_amount" = "金额无效";
+"error.enter_valid_amount" = "请输入有效金额";
+"error.already_participating" = "您已经参与此挑战";
+"error.login_required" = "您需要登录才能加入挑战";
+"error.payment_success_join_failed" = "支付成功，但加入挑战失败。资金已退还。";
+"error.payment_success_join_failed_auto" = "支付成功，但加入挑战失败。资金将自动退还。如果问题仍然存在，请联系支持。";
+"error.try_again_support" = "%@\n\n请重试。如果问题仍然存在，请联系支持。";
+
+// MARK: - Auth
+"auth.tagline" = "证明自己。或者付钱。";
+"auth.name" = "姓名";
+"auth.email" = "电子邮件";
+"auth.password" = "密码";

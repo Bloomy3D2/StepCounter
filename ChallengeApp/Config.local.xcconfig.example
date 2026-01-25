@@ -1,0 +1,15 @@
+// ⚠️ ВАЖНО: Этот файл содержит секретные ключи!
+// НЕ КОММИТЬТЕ В GIT!
+// Скопируйте этот файл в Config.local.xcconfig и заполните реальными ключами
+
+// MARK: - YooKassa Configuration (Debug/Test)
+
+YOOKASSA_SHOP_ID = 1256365
+YOOKASSA_SECRET_KEY = test_3NzNw2knb5rTf-bMwRMfdACZdtpAmgmRVgdfW9FYToo
+YOOKASSA_TEST_MODE = YES
+
+// MARK: - YooKassa Configuration (Release/Production)
+// Раскомментируйте для продакшена:
+// YOOKASSA_SHOP_ID = 1254934
+// YOOKASSA_SECRET_KEY = live_qSdkVXs_uFx88lkZzzyX0DkK-iparwPb6Jm4lM7ArXM
+// YOOKASSA_TEST_MODE = NO

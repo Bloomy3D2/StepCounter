@@ -1,0 +1,306 @@
+/* 
+  Localizable.strings (English)
+  ChallengeApp
+  
+  English localization
+*/
+
+// MARK: - Common
+"common.ok" = "OK";
+"common.cancel" = "Cancel";
+"common.done" = "Done";
+"common.close" = "Close";
+"common.yes" = "Yes";
+"common.no" = "No";
+"common.delete" = "Delete";
+"common.save" = "Save";
+
+// MARK: - Navigation
+"nav.challenges" = "Challenges";
+"nav.my_progress" = "My Progress";
+"nav.create" = "Create";
+"nav.history" = "History";
+"nav.profile" = "Profile";
+"nav.active_challenges" = "Active Challenges";
+
+// MARK: - Splash
+"splash.title" = "Bet on Yourself";
+"splash.subtitle" = "Failed — you pay.\nCompleted — you take the money.";
+"splash.start" = "Start";
+
+// MARK: - Challenges
+"challenge.join" = "Join for %@";
+"challenge.you_participate" = "You are participating";
+"challenge.completed" = "Completed";
+"challenge.failed" = "Failed";
+"challenge.duration" = "Duration: %d days";
+"challenge.entry_fee" = "Entry:";
+"challenge.service_fee" = "Service fee:";
+"challenge.prize_pool" = "Prize pool is divided among winners";
+"challenge.conditions" = "Conditions";
+"challenge.money" = "Money";
+"challenge.participants" = "Participants";
+
+// MARK: - Profile
+"profile.balance" = "Balance: %.2f ₽";
+"profile.honest_streak" = "Honest streak:";
+"profile.honest_streak_days" = "%d days";
+"profile.deposit" = "Deposit";
+"profile.withdraw" = "Withdraw";
+"profile.transaction_history" = "Transaction History";
+"profile.no_transactions" = "No transactions yet";
+"profile.rules" = "Rules";
+"profile.support" = "Support";
+"profile.clear_data" = "Clear Local Data";
+"profile.delete_account" = "Delete Account";
+"profile.logout" = "Logout";
+"profile.available" = "Available";
+"profile.on_verification" = "Under verification";
+"profile.pending_withdrawal" = "Pending withdrawal";
+"profile.available_for_withdrawal" = "Available for withdrawal";
+"profile.min_withdrawal" = "Minimum withdrawal: %d ₽";
+"profile.min_amount" = "Minimum amount: %d ₽";
+"profile.withdrawal_request_created" = "Withdrawal request for %@ ₽ created. Funds will arrive within 1-3 business days.";
+"profile.deposit_success" = "Balance successfully topped up by %@ ₽";
+
+// MARK: - Progress
+"progress.title" = "My Progress";
+"progress.total_stats" = "Total Statistics";
+"progress.win_rate" = "Win Rate";
+"progress.lost" = "Lost";
+"progress.earned" = "Earned";
+"progress.my_challenges" = "My Challenges";
+"progress.no_challenges" = "You are not participating in any challenges yet";
+"progress.day_of" = "Day %d of %d";
+"progress.victory" = "Victory";
+"progress.failure" = "Failure";
+"progress.active" = "Active";
+"progress.load_more" = "Load more";
+
+// MARK: - Victory
+"victory.emoji" = "🎉";
+"victory.title" = "You made it to the end";
+"victory.earned" = "You earned";
+"victory.winners" = "%d people made it to the end";
+"victory.withdraw" = "Withdraw money";
+"victory.next_challenge" = "Next Challenge";
+
+// MARK: - Quick Start
+"quickstart.title" = "Quick Start";
+"quickstart.subtitle" = "Start with a simple 1-day challenge";
+"quickstart.start_for" = "Start for %d ₽";
+"quickstart.choose_other" = "Choose Another";
+
+// MARK: - Alerts
+"alert.error" = "Error";
+"alert.delete_account.title" = "Delete Account?";
+"alert.delete_account.message" = "This action cannot be undone. All your data will be deleted.";
+"alert.clear_data.title" = "Clear Local Data?";
+"alert.clear_data.message" = "This will delete all local challenges. Data will be reloaded from the server.";
+
+// MARK: - Language
+"language.title" = "Language";
+"language.select" = "Select Language";
+"language.russian" = "Русский";
+"language.english" = "English";
+"language.chinese" = "简体中文";
+
+// MARK: - Active Challenge
+"active.day_of" = "Day %d of %d";
+"active.time_until_end" = "Time until end of day";
+"active.excellent_tomorrow" = "Excellent. We'll continue tomorrow.";
+"active.complete" = "Completed";
+"active.fail" = "Failed";
+"active.remaining_participants" = "Remaining participants:";
+"active.completed_today" = "Completed today:";
+"active.dropped_today" = "Dropped today:";
+"active.no_active" = "No active challenges";
+"active.confirm_title" = "Confirmation";
+"active.confirm_cancel" = "Cancel";
+"active.confirm_confirm" = "Confirm";
+"active.confirm_message" = "Are you sure? Money will not be refunded.";
+"active.error_title" = "Error";
+"active.error_complete" = "Failed to mark completion. Please try again.";
+"active.error_fail" = "Failed to record failure. Please try again.";
+"active.progress_title" = "My Progress";
+
+// MARK: - Progress Stats
+"stats.total_stats" = "Total Statistics";
+"stats.participations" = "Participations";
+"stats.wins" = "Wins";
+"stats.failures" = "Failures";
+"stats.earned" = "Earned";
+"stats.lost" = "Lost";
+"stats.win_rate" = "Win Rate";
+"stats.my_challenges" = "My Challenges";
+"stats.no_challenges" = "You are not participating in any challenges yet";
+"stats.challenge_number" = "Challenge #%@";
+"stats.day" = "Day";
+"stats.victory" = "Victory";
+"stats.failure" = "Failure";
+"stats.active" = "Active";
+
+// MARK: - Failure
+"failure.you_dropped" = "You dropped out";
+"failure.conditions_not_met" = "You did not meet the conditions today.";
+"failure.money_not_refunded" = "Money will not be refunded.";
+"failure.view_other" = "View other challenges";
+"failure.wait_next_round" = "Wait for the next round\nto try again";
+
+// MARK: - Common UI
+"common.coming_soon" = "Coming Soon";
+
+// MARK: - Challenge Detail
+"detail.start_in" = "Starts in";
+"detail.start_date" = "Start date";
+"detail.start_time" = "at %@";
+"detail.conditions" = "Conditions";
+"detail.rules_loading" = "Loading rules...";
+"detail.what_if_fail" = "What happens if you fail?";
+"detail.money_not_refunded" = "Money will not be refunded";
+"detail.service_fee_percent" = "Service fee — %d%%";
+"detail.money" = "Money";
+"detail.entry" = "Entry:";
+"detail.service_fee" = "Service fee:";
+"detail.prize_pool_info" = "Prize pool is divided among winners";
+"detail.join_for" = "Join for %@";
+"detail.you_participate" = "You are participating in this challenge";
+"detail.go_to_challenge" = "Go to challenge";
+"detail.you_won" = "You won this challenge!";
+"detail.you_dropped" = "You dropped out of this challenge";
+"detail.wait_next_round" = "Wait for the next round to try again";
+"detail.challenge_ended" = "Challenge has ended";
+
+// MARK: - Payment
+"payment.pay_apple" = "Pay with Apple Pay";
+"payment.pay_card" = "Pay %@";
+"payment.pay_sbp" = "Pay via SBP";
+"payment.duration_days" = "Duration: %d days";
+"payment.amount_to_pay" = "Amount to pay";
+"payment.rules" = "Rules";
+"payment.error" = "Error";
+"payment.method" = "Payment method";
+"payment.card" = "Bank card";
+"payment.sbp" = "SBP (Fast Payment System)";
+"payment.card_details" = "Card details";
+"payment.card_number" = "Card number";
+"payment.expiry" = "Expiry date";
+"payment.cardholder" = "Cardholder name";
+"payment.receipt_email" = "Email for receipt";
+"payment.email_valid" = "Email is valid";
+"payment.email_receipt_info" = "A receipt will be sent to this email";
+"payment.email_required_title" = "Enter your email";
+"payment.email_required_description" = "Email is required to receive a payment receipt.";
+"payment.confirm" = "Confirm";
+"payment.email_invalid" = "Please enter a valid email";
+"payment.sbp_payment" = "SBP Payment";
+"payment.sbp_info" = "After clicking the payment button, you will be redirected to your bank's app to confirm the payment.";
+"payment.terms_agree" = "I understand the rules and agree to the terms. Money will not be refunded if the challenge fails.";
+"payment.got_it" = "Got it";
+"payment.excellent" = "Excellent!";
+"payment.processing" = "Processing payment";
+"payment.processing_wait" = "Please wait...";
+"auth.or" = "or";
+"auth.sign_in_apple" = "Sign in with Apple";
+"auth.sign_up" = "Sign Up";
+"auth.sign_in" = "Sign In";
+"auth.already_have_account" = "Already have an account?";
+"auth.no_account" = "Don't have an account?";
+"payment.terms_agree" = "I understand the rules and agree to the terms. Money will not be refunded if the challenge fails.";
+"payment.got_it" = "Got it";
+"payment.excellent" = "Excellent!";
+
+// MARK: - Victory
+"victory.made_it" = "You made it to the end";
+"victory.you_earned" = "You earned";
+"victory.winners_count" = "%d people made it to the end";
+"victory.withdraw_money" = "Withdraw money";
+"victory.next_challenge" = "Next Challenge";
+
+// MARK: - Language Selection
+"language.select_interface" = "Select interface language";
+
+// MARK: - Quick Start
+"quickstart.ready" = "Ready to start?";
+"quickstart.try_first" = "Try your first challenge";
+"quickstart.first_challenge" = "First Challenge";
+"quickstart.duration_label" = "Duration:";
+"quickstart.day" = "day";
+"quickstart.days" = "days";
+"quickstart.stake" = "Stake:";
+"quickstart.category" = "Category:";
+"quickstart.start_for" = "Start for %d ₽";
+"quickstart.choose_other" = "Choose Another";
+
+// MARK: - Onboarding
+"onboarding.short_challenges" = "Short Challenges";
+"onboarding.on_discipline" = "on Discipline";
+"onboarding.money_motivates" = "Money enhances motivation";
+"onboarding.next" = "Next";
+"onboarding.how_it_works" = "How It Works";
+"onboarding.step_join" = "Join a challenge";
+"onboarding.step_pay" = "Pay entry fee";
+"onboarding.step_complete" = "Complete → Earn";
+"onboarding.step_fail" = "Fail → Lose";
+"onboarding.not_for_everyone" = "This is not for everyone.";
+"onboarding.no_excuses" = "No excuses here.";
+"onboarding.start" = "Start";
+"onboarding.skip" = "Skip";
+
+// MARK: - Profile (Additional)
+"profile.honest_streak_label" = "Honest streak:";
+"profile.days" = "days";
+"profile.deposit_balance" = "Deposit";
+"profile.transaction_history_title" = "Transaction History";
+"profile.no_transactions_yet" = "No transactions yet";
+"profile.available" = "Available";
+"profile.on_verification" = "Under verification";
+"profile.time_remaining" = "Time remaining: %@";
+"profile.pending_withdrawal_label" = "Pending withdrawal";
+"profile.withdrawal_request_created" = "Withdrawal request for %@ ₽ created. Funds will arrive within 1-3 business days.";
+"profile.available_for_withdrawal" = "Available for withdrawal";
+"profile.min_withdrawal_amount" = "Minimum withdrawal: %d ₽";
+"profile.quick_selection" = "Quick Selection";
+"profile.all" = "All";
+"profile.or_enter_amount" = "Enter amount";
+"profile.insufficient_funds" = "Insufficient funds";
+"profile.min_amount_label" = "Minimum amount: %d ₽";
+"profile.withdraw_method" = "Withdrawal Method";
+"profile.bank_card" = "Bank card";
+"profile.bank_account" = "Bank account";
+"profile.sbp_phone" = "SBP (to phone number)";
+"profile.card_number" = "Card number";
+"profile.account_number" = "Account number (20 digits)";
+"profile.phone_number" = "Phone number";
+"profile.funds_arrival" = "Funds will arrive within 1-3 business days";
+"profile.withdraw_funds" = "Withdraw funds";
+"profile.rules_title" = "Rules";
+"profile.rule_1" = "1. Mark challenge completion every day";
+"profile.rule_2" = "2. No mark = automatic dropout";
+"profile.rule_3" = "3. Money is not refunded if you fail";
+"profile.rule_4" = "4. Prize pool is divided among all winners";
+"profile.current_balance" = "Current Balance";
+"profile.deposit" = "Deposit";
+"profile.deposit_success_amount" = "Balance successfully topped up by %@ ₽";
+"profile.support" = "Support";
+"profile.withdrawal_created_title" = "Request Created!";
+"profile.tx_deposit" = "Deposit";
+"profile.tx_entry_fee" = "Challenge entry";
+"profile.tx_withdrawal" = "Withdrawal";
+"profile.tx_payout" = "Payout";
+
+// MARK: - Error Messages
+"error.auth_required" = "Authentication required";
+"error.invalid_amount" = "Invalid amount";
+"error.enter_valid_amount" = "Enter a valid amount";
+"error.already_participating" = "You are already participating in this challenge";
+"error.login_required" = "You need to log in to join a challenge";
+"error.payment_success_join_failed" = "Payment succeeded, but failed to join challenge. Funds have been refunded.";
+"error.payment_success_join_failed_auto" = "Payment succeeded, but failed to join challenge. Funds will be refunded automatically. If the problem persists, contact support.";
+"error.try_again_support" = "%@\n\nPlease try again. If the problem persists, contact support.";
+
+// MARK: - Auth
+"auth.tagline" = "Prove yourself. Or pay.";
+"auth.name" = "Name";
+"auth.email" = "Email";
+"auth.password" = "Password";

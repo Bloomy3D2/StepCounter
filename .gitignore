@@ -112,3 +112,24 @@ iOSInjectionProject/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# YooKassa API Keys - НЕ КОММИТИТЬ СЕКРЕТНЫЕ КЛЮЧИ!
+ChallengeApp/ChallengeApp/Config.xcconfig
+ChallengeApp/ChallengeApp/Config.Release.xcconfig
+**/Config.xcconfig
+**/Config.*.xcconfig
+!**/Config.xcconfig.example
+
+# Локальный файл с ключами (НЕ КОММИТИТЬ!)
+**/Config.local.xcconfig
+ChallengeApp/Config.local.xcconfig
+ChallengeApp/ChallengeApp/Config.local.xcconfig
+
+# Info.plist с секретными ключами (если используется)
+**/Info.plist
+!**/Info.plist.example
+
+# ⚠️ ВАЖНО: Если используете User-Defined Settings в project.pbxproj:
+# - Ключи попадут в git при коммите project.pbxproj
+# - Рекомендуется перевыпустить ключи после первого коммита
+# - Или использовать Build Script + Config.local.xcconfig (безопаснее)
