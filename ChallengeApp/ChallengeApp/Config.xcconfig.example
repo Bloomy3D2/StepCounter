@@ -1,0 +1,15 @@
+// ⚠️ Это пример файла конфигурации
+// Скопируйте этот файл в Config.xcconfig и добавьте свои ключи
+// Config.xcconfig должен быть в .gitignore!
+
+// MARK: - YooKassa Configuration
+
+// Тестовые ключи (для Debug)
+YOOKASSA_SHOP_ID = YOUR_SHOP_ID
+YOOKASSA_SECRET_KEY = YOUR_SECRET_KEY
+YOOKASSA_TEST_MODE = YES
+
+// Продакшен ключи (для Release) - добавьте в Release.xcconfig
+// YOOKASSA_SHOP_ID = YOUR_PROD_SHOP_ID
+// YOOKASSA_SECRET_KEY = YOUR_PROD_SECRET_KEY
+// YOOKASSA_TEST_MODE = NO
